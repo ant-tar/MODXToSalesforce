@@ -65,7 +65,7 @@ class modxtosalesforcePackage
         $this->modx->log(modX::LOG_LEVEL_INFO, 'Created Transport Package and Namespace.');
 
         $this->category = $this->modx->newObject('modCategory');
-        $this->category->set('category', $this->config['name']);
+        $this->category->set('category', $this->config['name_without_spaces']);
         $this->category_attributes = [
             xPDOTransport::UNIQUE_KEY => 'category',
             xPDOTransport::PRESERVE_KEYS => false,

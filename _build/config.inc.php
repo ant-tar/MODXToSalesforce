@@ -11,6 +11,7 @@ if (!defined('MODX_CORE_PATH')) {
 return [
     'name' => 'MODX To Salesforce',
     'name_lower' => 'modxtosalesforce',
+    'name_without_spaces' => 'MODXToSalesforce',
     'version' => '1.0.0',
     'release' => 'pl',
     // Install package to site right after build
