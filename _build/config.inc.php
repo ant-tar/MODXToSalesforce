@@ -9,7 +9,7 @@ if (!defined('MODX_CORE_PATH')) {
 }
 
 return [
-    'name' => 'modxtosalesforce',
+    'name' => 'MODX To Salesforce',
     'name_lower' => 'modxtosalesforce',
     'version' => '1.0.0',
     'release' => 'pl',
