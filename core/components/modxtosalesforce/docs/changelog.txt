@@ -1,0 +1,6 @@
+Changelog for MODX To Salesforce
+
+1.0.0-pl (May 05, 2021)
+====================================
+- Initial project
+- Initial changelog started
