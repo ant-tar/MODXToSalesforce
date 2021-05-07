@@ -6,11 +6,6 @@ return [
         'value' => '',
         'area' => 'general',
     ],
-    'return_url' => [
-        'xtype' => 'textfield',
-        'value' => '',
-        'area' => 'general',
-    ],
     'salesforce_url' => [
         'xtype' => 'textfield',
         'value' => 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8',
