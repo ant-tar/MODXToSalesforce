@@ -646,6 +646,7 @@ class modxtosalesforcePackage
                 'state' => 1,
                 'workspace' => 1,
                 'provider' => 0,
+                'requires' => array('formit' => '>=2.2.0'),
                 'source' => $signature . '.transport.zip',
                 'package_name' => $this->config['name'],
                 'version_major' => $versionSignature[0],
@@ -733,6 +734,8 @@ class modxtosalesforcePackage
             'changelog' => file_get_contents($this->config['core'] . 'docs/changelog.txt'),
             'license' => file_get_contents($this->config['core'] . 'docs/license.txt'),
             'readme' => file_get_contents($this->config['core'] . 'docs/readme.txt'),
+            'requires' => array('formit' => '>=4.2'),
+
         ]);
         $this->modx->log(modX::LOG_LEVEL_INFO, 'Added package attributes and setup options.');
 
