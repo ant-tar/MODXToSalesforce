@@ -1,7 +1,7 @@
 # MODX To Salesforce
 ![MODXToSalesforce version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg) ![MODX Extra by Anton Tarasov](https://img.shields.io/static/v1?label=MODX%20Extra%20by&message=Anton%20Tarasov&color=green) ![MODX version](https://img.shields.io/static/v1?label=MODX%20version&message=>2.8&color=blue)
 
-Web-To-Lead implementation for transfering leads from website HTML forms to Salesforce.  
+*Web-To-Lead* implementation for transfering leads from website HTML forms to Salesforce.  
 
 ## Configuration ##
 To use **MODX To Salesforce** as Formit hook (using `toSalesforceHook` snippet), you have to specify *Salesforce User ID*. Please check [this link](https://help.salesforce.com/articleView?id=000312782&type=1&mode=1) to know how and where find your user ID.
